@@ -115,7 +115,7 @@ var TimeGridEventRenderer = EventRenderer.extend({
 						) +
 					(eventDef.title ?
 						'<div class="fc-title">' +
-							htmlEscape(eventDef.title) +
+							eventDef.title +
 						'</div>' :
 						''
 						) +

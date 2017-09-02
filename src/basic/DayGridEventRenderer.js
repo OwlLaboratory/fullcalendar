@@ -245,7 +245,7 @@ var DayGridEventRenderer = EventRenderer.extend({
 
 		titleHtml =
 			'<span class="fc-title">' +
-				(htmlEscape(eventDef.title || '') || '&nbsp;') + // we always want one line of height
+				(eventDef.title || '&nbsp;') + // we always want one line of height
 			'</span>';
 
 		return '<a class="' + classes.join(' ') + '"' +
